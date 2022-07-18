@@ -1,4 +1,6 @@
-let my_Balance = parseInt(document.getElementById("my_Balance").innerText);
+if(document.getElementById("my_Balance") !=null){
+   let my_Balance = parseInt(document.getElementById("my_Balance").innerText);
+}
 
 function perform_transaction(){
    var enterName = document.getElementById("enterName").value;
